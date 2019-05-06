@@ -1,0 +1,18 @@
+d2r: 
+ apiInfo: 
+  Get_CollectionsLeaseInfo:  
+   apiId: 5611
+   inputParameter: 
+    mapping:
+         - param: leaseFile.indentification.idvalue
+           defaultvalue: somevalue
+         - param: leaseFile.indentification.idvalue
+           convertedParamName: id
+         - param: leaseFile.indentification.organizationName
+           value: org
+           mappingUrl: http://d2r/api/convertor
+   clientInfo:
+        d2rclientname1:
+          ajaxurl: http://d2rclientname1ajax/leaseinfo
+          username: user1
+          password: pass1

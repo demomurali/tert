@@ -1,0 +1,33 @@
+yardi:
+ commonInputParameter: 
+  url: /8223thirdparty708dev/Webservices/itfCollections.asmx
+  Database: oracle
+  InterfaceLicense: licencevalue
+  Platform: linux
+  ServerName: 14.45.45.54
+  passsword: passValue
+  username: userValue 
+  CollectionsAgency: agencyname
+  YardiPropertyId: 5645646
+ thirdPartyApi:    
+      Get_CollectionsLeaseInfo: 
+           header: <Get_CollectionsLeaseInfo xmlns="http://tempuri.org/YSI.Interfaces.WebServices/ItfCollections">
+           tail: </Get_CollectionsLeaseInfo>
+      Get_CollectionsLeaseInfo_Status: 
+           header: <Get_CollectionsLeaseInfo_Status xmlns=\"http://tempuri.org/YSI.Interfaces.WebServices/ItfCollections\">
+           inputParameter: 
+             CollectionsStatus: statusvalue
+           tail: </Get_CollectionsLeaseInfo_Status>
+      Get_CollectionsLeaseInfo_View:
+           header: <Get_CollectionsLeaseInfo_View xmlns=\"http://tempuri.org/YSI.Interfaces.WebServices/ItfCollections\">
+           tail: </Get_CollectionsLeaseInfo_View>  
+      Import_CollectionsInfo: 
+           header: <Import_CollectionsInfo xmlns=\"http://tempuri.org/YSI.Interfaces.WebServices/ItfCollections\">
+           inputParameter: 
+             XmlDoc: xmldocvalue
+           tail: </Import_CollectionsInfo>
+      GetCollectionsAttachments:
+           header: <GetCollectionsAttachments xmlns=\"http://tempuri.org/YSI.Interfaces.WebServices/ItfCollections\">
+           inputParameter: 
+             TenantCode: doubt
+           tail: </GetCollectionsAttachments>
